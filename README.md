@@ -36,16 +36,15 @@ Use the website for details about installing Visual Studio Code, https://code.he
 
 Powershell Core has not officially been released for Ubuntu 20.04, see https://github.com/PowerShell/PowerShell.  However, I was able to use the build for Raspbian and get it to work.  Here are the steps.
 
-################################### 
-# Download and extract PowerShell 
-# Grab the latest tar.gz 
-wget https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/powershell-7.0.3-linux-arm32.tar.gz 
-# Make folder to put powershell 
-mkdir ~/powershell 
-# Unpack the tar.gz file 
-tar -xvf ./powershell-7.0.3-linux-arm32.tar.gz -C ~/powershell 
-# Start PowerShell 
-~/powershell/pwsh
+* Download and extract PowerShell 
+* Grab the latest tar.gz 
+* wget https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/powershell-7.0.3-linux-arm32.tar.gz 
+* Make folder to put powershell 
+* mkdir ~/powershell 
+* Unpack the tar.gz file 
+* tar -xvf ./powershell-7.0.3-linux-arm32.tar.gz -C ~/powershell 
+* Start PowerShell 
+* ~/powershell/pwsh
 
 Here is a tutorial on using pwsh, https://matthewdavis111.com/powershell/manage-azure-ad-powershell-core/.
 
