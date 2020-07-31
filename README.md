@@ -2,27 +2,27 @@
 
 This document is an outline of setup steps to configure a Raspberry Pi 4 as a desktop.  The primary focus of these steps is for a system with the following applications and service tasks.
 
--Video conferencing, primarily MS Teams but also Zoom
--Microsoft 365, including Exchange Online
--CA Service Desk Manager and Banner Self-Service Applications
--Remote access, RDP (Remmina), and VPN (OpenConnect)
--Script and code editing with Visual Studio Code
--Version control with Git
--Azure management with PowerShell Core
+* Video conferencing, primarily MS Teams but also Zoom
+* Microsoft 365, including Exchange Online
+* CA Service Desk Manager and Banner Self-Service Applications
+* Remote access, RDP (Remmina), and VPN (OpenConnect)
+* Script and code editing with Visual Studio Code
+* Version control with Git
+* Azure management with PowerShell Core
 
 There are several operating system options for the Raspberry Pi, but Ubuntu-Mate had the most hardware optimizations at the time of this testing.  Version 20.04 located here, https://ubuntu-mate.org/download/arm64/, is what I used.
 
 Here is a list of the hardware.
--8GB Pi 4
--Ice Tower cooler
--Samsung EVO Plus SD Card
--Corsair Voyager premium flash drive
--5 amp power supply
--2.4 GHz wireless keyboard and mouse
--Jabra external USB headset
--Microsoft LifeCam
--External speaker with 3.5mm audio jack
--USB extension cable
+* 8GB Pi 4
+* Ice Tower cooler
+* Samsung EVO Plus SD Card
+* Corsair Voyager premium flash drive
+* 5 amp power supply
+* 2.4 GHz wireless keyboard and mouse
+* Jabra external USB headset
+* Microsoft LifeCam
+* External speaker with 3.5mm audio jack
+* USB extension cable
 
 I will leave the details about installing the OS and getting all the devices working for another document.  However, I will mention that the USB extension cable is a must if you are going to use a wireless keyboard and mouse.  I tested two different units, and both caused interference for the keyboard and mouse.
 
