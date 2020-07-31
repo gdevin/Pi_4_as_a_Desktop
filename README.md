@@ -38,7 +38,7 @@ Powershell Core has not officially been released for Ubuntu 20.04, see https://g
 
 * Download and extract PowerShell 
 * Grab the latest tar.gz 
-* wget https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/powershell-7.0.3-linux-arm32.tar.gz 
+* wget https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/powershell-7.0.3-linux-arm64.tar.gz
 * Make folder to put powershell 
 * mkdir ~/powershell 
 * Unpack the tar.gz file 
